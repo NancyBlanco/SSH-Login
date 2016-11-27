@@ -1,0 +1,18 @@
+c:\users\m1k3\documents\visual studio 2015\Projects\sshfb\sshfb\bin\Debug\sshfb.exe.config
+C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\obj\Debug\sshfb.csprojResolveAssemblyReference.cache
+C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\bin\Debug\sshfb.exe
+C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\bin\Debug\sshfb.pdb
+C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\bin\Debug\Tamir.SharpSSH.dll
+C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\obj\Debug\sshfb.exe
+C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\obj\Debug\sshfb.pdb
+C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\bin\Debug\DiffieHellman.dll
+C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\bin\Debug\Org.Mentalis.Security.dll
+C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\bin\Debug\sshfb.exe.config
+C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\obj\Debug\sshfb.exe
+C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\obj\Debug\sshfb.pdb
+C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\bin\Debug\sshfb.exe
+C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\bin\Debug\sshfb.pdb
+C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\bin\Debug\DiffieHellman.dll
+C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\bin\Debug\Org.Mentalis.Security.dll
+C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\bin\Debug\Tamir.SharpSSH.dll
+C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\obj\Debug\sshfb.csprojResolveAssemblyReference.cache
