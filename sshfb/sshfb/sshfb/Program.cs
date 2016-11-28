@@ -38,7 +38,7 @@ namespace sshfb
                     break;
 
                 default:
-                    Console.Write("Algo salio mal!!, ");
+                    Console.Write("Algo salio mal verifiquelo, ");
                     goto INPUT;
             }
         }
