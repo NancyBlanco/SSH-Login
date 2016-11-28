@@ -16,3 +16,12 @@ C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\bin\Debug\DiffieHellman.dll
 C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\bin\Debug\Org.Mentalis.Security.dll
 C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\bin\Debug\Tamir.SharpSSH.dll
 C:\Users\Hernandez\Downloads\sshfb\sshfb\sshfb\obj\Debug\sshfb.csprojResolveAssemblyReference.cache
+C:\Users\Hernandez\Documents\GitHub\SSH-Login\sshfb\sshfb\sshfb\bin\Debug\sshfb.exe.config
+C:\Users\Hernandez\Documents\GitHub\SSH-Login\sshfb\sshfb\sshfb\obj\Debug\sshfb.exe
+C:\Users\Hernandez\Documents\GitHub\SSH-Login\sshfb\sshfb\sshfb\obj\Debug\sshfb.pdb
+C:\Users\Hernandez\Documents\GitHub\SSH-Login\sshfb\sshfb\sshfb\bin\Debug\sshfb.exe
+C:\Users\Hernandez\Documents\GitHub\SSH-Login\sshfb\sshfb\sshfb\bin\Debug\sshfb.pdb
+C:\Users\Hernandez\Documents\GitHub\SSH-Login\sshfb\sshfb\sshfb\bin\Debug\DiffieHellman.dll
+C:\Users\Hernandez\Documents\GitHub\SSH-Login\sshfb\sshfb\sshfb\bin\Debug\Org.Mentalis.Security.dll
+C:\Users\Hernandez\Documents\GitHub\SSH-Login\sshfb\sshfb\sshfb\bin\Debug\Tamir.SharpSSH.dll
+C:\Users\Hernandez\Documents\GitHub\SSH-Login\sshfb\sshfb\sshfb\obj\Debug\sshfb.csprojResolveAssemblyReference.cache
